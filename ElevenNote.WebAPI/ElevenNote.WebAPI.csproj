@@ -312,6 +312,14 @@
       <Project>{696DE76C-71FD-49A2-B6B2-77BA3327890B}</Project>
       <Name>ElevenNote.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ElevenNote.Models\ElevenNote.Models.csproj">
+      <Project>{E0D170CE-4902-42DF-9349-CB35550E3C63}</Project>
+      <Name>ElevenNote.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ElevenNote.Services\ElevenNote.Services.csproj">
+      <Project>{F8F4D909-CFA8-463D-B2BC-99AEC2AE198D}</Project>
+      <Name>ElevenNote.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
