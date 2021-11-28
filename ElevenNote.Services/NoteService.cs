@@ -76,7 +76,7 @@ namespace ElevenNote.Services
 
         public bool UpdateNote(NoteEdit model)
         {
-            using (var ctx = new ApplicationDbContext)
+            using (var ctx = new ApplicationDbContext())
             {
                 var entity =
                     ctx
@@ -93,7 +93,7 @@ namespace ElevenNote.Services
 
         public bool DeleteNote(int noteId)
         {
-            using (var ctx = new ApplicationDbContext)
+            using (var ctx = new ApplicationDbContext())
             {
                 var entity =
                     ctx
